@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+h1{
+    font: size 2rem;
+    text-align: center;
+}
+a{
+
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+p{
+
+    font-size: 1.2 rem;
+    text-align: justify;
+}
+[class *="col-"]{
+    float:center;
+    padding:10px;
+}
+[class*="col-"]{
+    width:100%;
+}
+
+
+.navbar{
+    background-color:#0c6168;
+    padding:1% 7%
+    text-align : center;
+}
+.navbar h1{
+    color: white;
+    margin:0;
+    padding-top: 10px;
+}
+
+.navbar-menu{
+display: flex;
+flex-direction:column;
+text-transform: uppercase;
+}
+
+.navbar-menu a{
+    background-color: #0c6168;
+    border-radius: 10px;
+    margin:7px 0px;
+    padding: 10px;
+    }
+    .navbar-menu a:hover{
+        background-color: blueviolet;
+    }
+
+.navbar:after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.profile{
+    padding:130px 10px;
+    position:relative;
+    text-align: center;
+}
+.profile-desc p{
+    color: blue;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+
